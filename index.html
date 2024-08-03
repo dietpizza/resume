@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hire me!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     * {
       margin: 0;
@@ -35,6 +36,7 @@
     .name {
       font-size: 2.5rem;
       margin-right: 0.5rem;
+      margin-left: 0;
     }
 
     .occupation {
@@ -44,6 +46,7 @@
     .header {
       font-size: x-large;
       margin-bottom: 6px;
+      font-weight: 600;
     }
 
     .work {
@@ -65,10 +68,15 @@
     .blt {
       margin-top: 2px;
       margin-bottom: 2px;
-      opacity: 0.7;
+      opacity: 0.85;
     }
 
     .bold {
+      font-weight: 600;
+      opacity: 1;
+    }
+
+    .bold2 {
       font-weight: 700;
     }
 
@@ -79,6 +87,52 @@
     .blue {
       color: #0077ff;
     }
+
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .skill-list li {
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      color: #333;
+      margin-right: 16px;
+    }
+
+    .skill-list i {
+      margin-right: 8px;
+      font-size: 18px;
+    }
+
+    /* Icon-specific colors */
+    .skill-list i.fa-react {
+      color: #61dafb;
+    }
+
+    .skill-list i.fa-node-js {
+      color: #68a063;
+    }
+
+    .skill-list i.fa-python {
+      color: #3776ab;
+    }
+
+    .skill-list i.fa-database {
+      color: #f29111;
+    }
+
+    .skill-list i.fa-aws {
+      color: #ff9900;
+    }
+
+    .skill-list i.fa-js-square {
+      color: #007acc;
+    }
   </style>
 </head>
 
@@ -86,7 +140,7 @@
   <div class="page">
     <div>
       <p class="name">Rohan Biswas</p>
-      <p class="occupation op8 blue mid">Front-end Developer</p>
+      <p class="occupation op8 mid">Full-Stack Developer</p>
     </div>
     <div style="height: 0.5rem;"></div>
     <div>
@@ -96,85 +150,73 @@
     </div>
     <div style="height: 1.5rem;"></div>
     <div>
-      <p class="header op6 bold blue">SKILLS</p>
-      <p>JavaScript - TypeScript - React - React Native - GraphQL - Node.js - Express.js - MongoDB - PosgreSQL - Python
-        -
-        AWS - GCP - GIT - Figma - Linux - Mixpanel Analytics
-      </p>
+      <p class="header">SKILLS</p>
+      <ul class="skill-list">
+        <li><i class="fab fa-react"></i> React</li>
+        <li><i class="fab fa-react"></i> React Native</li>
+        <li><i class="fab fa-js-square"></i> TypeScript</li>
+        <li><i class="fab fa-node-js"></i> Node.js</li>
+        <li><i class="fab fa-node-js"></i> Express.js</li>
+        <li><i class="fab fa-python"></i> Python</li>
+        <li><i class="fas fa-database"></i> SQL</li>
+        <li><i class="fab fa-aws"></i> AWS</li>
+      </ul>
     </div>
     <div style="height: 1rem;"></div>
     <div>
-      <p class="header op6 bold blue">EXPERIENCE</p>
-      <p class="work bold op8">Medbikri Technologies Pvt Ltd., Remote</p>
-      <p class="op6 desn">JULY 2023 - PRESENT - SDE-1</p>
+      <p class="header">EXPERIENCE</p>
+      <p class="work bold2 op8">Great Lakes E-Learning Services</p>
+      <p class="op6 desn">September 2023 - PRESENT - Associate SDE</p>
+      <p class="blt">• Contributed to key content consumption platform
+      </p>
+      <div style="height: 1rem;"></div>
+      <p class="work bold2 op8">Medbikri Technologies Pvt Ltd., Remote</p>
+      <p class="op6 desn">JULY 2023 - AUGUST 2023 - SDE-1</p>
       <div style="height: 2px"></div>
       <p class="op6 desn">OCTOBER 2021 - JUNE 2023 - Frontend Developer Intern</p>
       <div style="height: 6px"></div>
       <p class="blt">• Developed <span class="bold">Android app</span> for pharmacy management, amassing
         <span class="bold">100k+ downloads</span> on Google PlayStore.
       </p>
-      <p class="blt">• Contributed to <span class="bold">key functionalities</span> encompassing Sales, Purchases,
-        Inventory,
-        and E-Clinic, among others.</p>
       <p class="blt">• Created <span class="bold">Python microservices</span> that seamlessly generate <span
           class="bold">PDF bills, prescriptions,</span> and more.</p>
-      <p class="blt">• Implemented <span class="bold">Payment Integration</span> for seamless <span class="bold">GSTIN
-          Payments</span> and more.</p>
-      <p class="blt">• Spearheaded <span class="bold">Twilio video call</span> integration for <span class="bold">Doctor
-          consultation.</span></p>
-      <p class="blt">• Contributed to the development of <span class="bold">pivotal UI pages</span> across both web and
-        native
-        platforms.</p>
-      <p class="blt">• Implemented the complete <span class="bold">design system</span>, meticulously
-        translating Figma design specs into stunning web and native interfaces.</p>
-      <p class="blt">• Drove the implementation of the <span class="bold">Android native camera</span> feature,
-        enhancing
-        user experience.</p>
-      <p class="blt">• Successfully <span class="bold">deployed core company websites</span> and web applications on the
-        robust AWS platform.</p>
+      <p class="blt">• Implemented the complete <span class="bold">design system</span> from Figma design.</p>
       <p class="blt">• One of only two interns offered
         <span class="bold">equity by the founders.</span>
-      </p>
-      <div style="height: 1rem;"></div>
-      <p class="work bold op8">CHPL, Remote</p>
-      <p class="op6 desn">MAY 2021 - SEPTEMBER 2021 - Frontend Developer Intern</p>
-      <div style="height: 6px"></div>
-      <p class="blt">• Deployed <span class="bold">2 websites and android app</span> for the employer.
-      <p class="blt">• Cotributed to <span class="bold">UI Design</span> and internal company website.
       </p>
     </div>
     <div style="height: 1rem;"></div>
     <div>
-      <p class="header op6 bold blue">PROJECTS</p>
-      <p class="work op8"><span class="bold">Velcro</span> - Lightweight Aria2 WebUI built with <span
+      <p class="header">PROJECTS</p>
+      <p class="work op8"><span class="bold2">Velcro</span> - Lightweight Aria2 WebUI built with <span
           class="bold">React</span> and <span class="bold">Tailwind CSS.</span> |
         <a class="blue" href="https://github.com/dietpizza/velcro">github.com/dietpizza/velcro</a>
       </p>
-      <p class="op6"> - Connect to <span class="bold">any aria2 server</span> and schedule/monitor downloads.</p>
-      <p class="op6"> - Implemented <span class="bold">JSON-RPC</span> to communicate with aria2 server.</p>
+      <p class="blt">• Connect to <span class="bold">any aria2 server</span> and schedule/monitor downloads.</p>
+      <p class="blt">• Implemented <span class="bold">JSON-RPC</span> to communicate with aria2 server.</p>
       <div style="height: 6px"></div>
-      <p class="work op8"><span class="bold">Duckart</span> - <span class="bold">Production-ready REST API</span> for
+      <p class="work op8"><span class="bold2">Duckart</span> - <span class="bold">Production-ready REST API</span> for
         e-commerce website. | <a class="blue"
           href="https://github.com/dietpizza/duckart">github.com/dietpizza/duckart</a></p>
-      <p class="op6">• Developed a backend REST API for an e-commerce website using <span class="bold">Typescript,
+      <p class="blt">• Developed a backend REST API for an e-commerce website using <span class="bold">Typescript,
           Express,
           MongoDB</span>.</p>
 
-      <p class="op6">• Implemented <span class="bold">JWT authentication</span> for enhanced security.</p>
+      <p class="blt">• Implemented <span class="bold">JWT authentication</span> for enhanced security.</p>
 
-      <p class="op6">• Established <span class="bold">role-based access control</span> to manage endpoint permissions
+      <p class="blt">• Established <span class="bold">role-based access control</span> to manage endpoint permissions
         effectively.</p>
       <div style="height: 6px"></div>
-      <p class="work op8"><span class="bold">XLaunch</span> - SpaceX launch data app. | <a class="blue"
+      <p class="work op8"><span class="bold2">XLaunch</span> - SpaceX launch data app. | <a class="blue"
           href="https://github.com/dietpizza/xlaunch">github.com/dietpizza/xlaunch</a></p>
-      <p class="op6">• Developed using <span class="bold">React Native</span> for a seamless mobile application.</p>
-      <p class="op6">• Integrated <span class="bold">SpaceX APIs</span> to provide real-time data for an enriched user
+      <p class="blt">• Developed using <span class="bold">React Native</span> for a seamless mobile application.</p>
+      <p class="blt">• Integrated <span class="bold">SpaceX APIs</span> to provide real-time data for an enriched user
         experience.</p>
       <div style="height: 6px"></div>
     </div>
     <div style="height: 1rem;"></div>
     <div>
-      <p class="header op6 bold blue">EDUCATION</p>
+      <p class="header">EDUCATION</p>
       <p class="work bold op8">Netaji Subhas Enginnering College</p>
       <p class="op6 desn"> AUGUST 2020 - JULY 2023 | B. Tech - Information Technology</p>
       <p class="op6 desn"> CGPA - 8.85</p>
